@@ -1,0 +1,6 @@
+.bg-img {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("https://static.lichi.com/hp/5/816/8662/i0.jpg");
+    -webkit-background-size: cover;
+}
