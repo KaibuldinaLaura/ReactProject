@@ -1,0 +1,88 @@
+#productDetails {
+    width: 100%;
+    box-shadow: 0 0 5px #ccc;
+    padding: 20px 20px;
+    max-width: 1300px;
+    width:  100%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    justify-content: center;
+ 
+}
+
+
+.details img {
+    display: block;
+    object-fit: cover; 
+    margin-right: 70px;
+}
+
+.details .box {
+    margin-top: 20px;
+    max-width: 590px;
+    min-width: 200px;
+}
+
+.details .box h3 {  
+    margin-top: 0px;
+    font-weight: lighter;
+}
+
+.box .row {
+    text-align: center;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.box .row h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.box .row span {
+    color: black;
+}
+
+.box p {
+    width: 400px;
+    line-height: 1.5;
+    margin: 50px 0;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#card {
+    background: #333;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    margin-left: 120px;
+    display: inline-block;
+}
+
+#card:hover {
+    background-color: white;
+    color: #333;
+}
+.share {
+    margin-top: 200px;
+    margin-right: 20px;
+}
+.share li {
+    list-style: none;
+    display:  inline-block;
+    padding: 8px;
+}
