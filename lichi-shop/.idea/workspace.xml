@@ -17,7 +17,6 @@
   <component name="ProjectId" id="1ixLQuCfE7mmP5R8BevMLpCXyva" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -26,13 +25,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="D:\nodejs\lichi-shop\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -44,16 +49,38 @@
       <option name="presentableId" value="Default" />
       <updated>1602845653297</updated>
       <workItem from="1602845659441" duration="7244000" />
+      <workItem from="1602854415299" duration="320000" />
+      <workItem from="1602861518318" duration="599000" />
+      <workItem from="1603037535204" duration="686000" />
+      <workItem from="1603279626035" duration="325000" />
+      <workItem from="1603280563278" duration="4344000" />
+      <workItem from="1603341108637" duration="6654000" />
+      <workItem from="1603390918840" duration="167000" />
+      <workItem from="1603391164264" duration="566000" />
+      <workItem from="1603392503424" duration="6335000" />
+      <workItem from="1603430641597" duration="5949000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#ESLint" timestamp="1603397540000">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#ESLint/0.0.1536.824@0.0.1536.824" timestamp="1603397540000" />
+    <state x="361" y="74" key="#Inspections" timestamp="1603281590335">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1603281590335" />
     <state x="534" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602853294688">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="534" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1602853294688" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1603280795772">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1603280795772" />
   </component>
 </project>
