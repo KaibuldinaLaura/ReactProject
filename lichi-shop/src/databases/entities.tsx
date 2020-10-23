@@ -6,4 +6,6 @@ export interface Product {
     prd_description: string,
     prd_price: number;
     category: number;
+    count: number
 }
+

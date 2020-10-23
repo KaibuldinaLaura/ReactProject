@@ -1,75 +1,67 @@
-#productDetails {
+#productDetailsCart {
     width: 100%;
     box-shadow: 0 0 5px #ccc;
     padding: 20px 20px;
     max-width: 1300px;
     width:  100%;
-    margin: 50px;
+    margin: 0 auto;
     margin-top: 150px;
 }
 
-.details {
+.detailsCart {
+
     display: flex;
     flex-wrap: wrap;
     margin: 50px 0;
     justify-content: center;
- 
+    border: 2px solid #eee;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 2px 8px 20px #ddd;
+    transition: 0.5s;
+    
 }
 
-.details img {
+
+.detailsCart img {
     display: block;
-    object-fit: cover; 
-    z-index: -1;
-}
-.btn {
-    margin: 0 30px;
-    width: 50px;
-    box-shadow: 0 0 1px #333;
-    border: 1px solid #555;
-    outline: none;
-    background: transparent;
-    cursor: pointer;
+    object-fit: cover;
 }
 
-.details .box {
+.detailsCart .boxCart {
     margin-top: 20px;
     max-width: 590px;
     min-width: 200px;
 }
-.details .box p {
-    margin-left: 20px;
-}
 
-.details .box h3 {  
+.detailsCart .boxCart h3 {  
     margin-top: 0px;
     font-weight: lighter;
 }
 
-.box .row {
+
+.boxCart .rowCart {
     text-align: center;
     width: 400px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
     flex-direction: column;
+    
 }
 
-.box .row h2 {
+.boxCart .rowCart h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
     font-weight: lighter;
 }
-.svg{
-    position: absolute;
-    margin-top: -935px;
-    margin-left: -100px;
-}
-.box .row span {
+
+.boxCart .rowCart span {
     color: black;
 }
 
-.box p {
+.boxCart p {
     width: 400px;
     line-height: 1.5;
     margin: 50px 0;
@@ -78,7 +70,7 @@
     margin-left: 10px;
 }
 
-#card {
+#cardCart {
     background: #333;
     color: white;
     text-decoration: none;
@@ -86,17 +78,8 @@
     margin-left: 120px;
     display: inline-block;
 }
-#cartCnt {
-    position: absolute;
-    top: 9px;
-    right: 230px;
-    color: white;
-    background-color: crimson;
-    border-radius: 50%;
-    padding: 3px 5px;
-    z-index: 99;
-}
-#card:hover {
+
+#cardCart:hover {
     background-color: white;
     color: #333;
 }

@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import { Route, useRouteMatch } from 'react-router'
+import { Route } from 'react-router'
 import Categories from './Categories'
 import Home from './Home'
 import ProductDetail from './ProductDetail'
 import Products from './Products'
 import Cart from './Cart'
 import "../index.css"
-import Registration from './Registration'
+import Registration from "./Registration";
 import NewClothes from "./NewClothes";
 
 
@@ -21,9 +21,10 @@ export default class Section extends Component {
                 <Route path = "/categories" exact component = {Categories} />
                 <Route path = "/categories/:id/products" exact component = {Products} />
                 <Route path = "/categories/:catId/products/:prodId" component = {ProductDetail} />
-                <Route path = "/cart"/>
+                <Route path = "/card" component = {Cart} />
                 <Route path = "/registration/" exact component = {Registration} />
                 <Route path = "/newClothes/" exact component = {NewClothes} />
+
             </section>
         )
     }

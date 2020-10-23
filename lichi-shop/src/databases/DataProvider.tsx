@@ -1,16 +1,8 @@
 import React, { Component } from 'react'
-import { products } from './database'
-
-interface Props {
-    
-}
-interface State {
-    
-}
 
 export const DataContext = React.createContext({})
 
-export default class DataProvider extends Component<Props, State> {
+export default class DataProvider extends Component {
 
     state = {
         categories: 
@@ -68,9 +60,8 @@ export default class DataProvider extends Component<Props, State> {
                 cat_name: "Shoes",
                 cat_image: "https://static.lichi.com/product/38644/ced2735d7ac3605a178382a3fb87373f.jpg?v=0_3850134&resize=size-middle",
                 cat_image2: "https://static.lichi.com/product/38644/1fed80ca76b4862c592890360b81fd1e.jpg?v=1_3850135"
-            }
+            },
         ],
-        cart: []
     }
 
     

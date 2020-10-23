@@ -1,5 +1,8 @@
 import {  Product } from "./entities"
 
+export const cart: Product[] = [
+]
+
 export const products: Product[] = 
 [
     {
@@ -9,7 +12,8 @@ export const products: Product[] =
         prd_price: 50,
         prd_img: "https://static.lichi.com/product/38986/99defa25244803368bac228315f8301b.jpg?v=0_3885823",
         prd_img2: "https://static.lichi.com/product/38986/82c4a8008c7b2a072c5d0730e46f0922.jpg?v=1_3886079",
-        category: 1
+        category: 1,
+        count: 0
     },
     {
         prd_id: 2,
@@ -18,7 +22,9 @@ export const products: Product[] =
         prd_price: 65,
         prd_img: "https://static.lichi.com/product/38316/c117620bf54b0b86cd8225e0d65e3e1e.jpg?v=0_3845983",
         prd_img2: "https://static.lichi.com/product/38316/3d2d8d78b0ece2d03d5b029f0dc143ce.jpg?v=1_3845984",
-        category: 1
+        category: 1,
+        count: 0
+    
     },
     {
         prd_id: 3,
@@ -27,7 +33,8 @@ export const products: Product[] =
         prd_price: 50,
         prd_img: "https://static.lichi.com/product/38972/4ef2c532d110ee152e1d6e51da41e6d4.jpg?v=0_3885761",
         prd_img2: "https://static.lichi.com/product/38972/4ef2c532d110ee152e1d6e51da41e6d4.jpg?v=0_3885761",
-        category: 1
+        category: 1,
+        count: 0
     },
     {
         prd_id: 4,
@@ -36,7 +43,8 @@ export const products: Product[] =
         prd_price: 55,
         prd_img: "https://static.lichi.com/product/37953/901eb68bfc6c5af241ffe932ee571bbe.jpg?v=0_3844761",
         prd_img2: "https://static.lichi.com/product/37953/901eb68bfc6c5af241ffe932ee571bbe.jpg?v=0_3844761",
-        category: 1
+        category: 1,
+        count: 0
     },
     {
         prd_id: 5,
@@ -45,7 +53,8 @@ export const products: Product[] =
         prd_price: 60,
         prd_img: "https://static.lichi.com/product/38976/a166a96d65357da32e2e20b21f09753a.jpg?v=0_3885702",
         prd_img2: "https://static.lichi.com/product/38976/f4635891630107ed62fc6c7dd10e6bc7.jpg?v=1_3885703",
-        category: 1
+        category: 1,
+        count: 0
     },
     {
         prd_id: 6,
@@ -54,7 +63,8 @@ export const products: Product[] =
         prd_price: 65,
         prd_img: "https://static.lichi.com/product/38785/0fc9be24529000662077f5c090609a48.jpg?v=0_3883578",
         prd_img2: "https://static.lichi.com/product/38785/bd9b60641454f75f6618b9064948ae2d.jpg?v=1_3884158",
-        category: 1
+        category: 1,
+        count: 0
     },
     {
         prd_id: 7,
@@ -63,7 +73,8 @@ export const products: Product[] =
         prd_price: 50,
         prd_img: "https://static.lichi.com/product/38988/ca57c4a6d59cc8cd14ab8e348f172d1e.jpg?v=0_3885868",
         prd_img2: "https://static.lichi.com/product/38988/8c05c37dd84d772f30104266c0c46b3a.jpg?v=1_3886109",
-        category: 1
+        category: 1,
+        count: 0
     },
     {
         prd_id: 8,
@@ -72,7 +83,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38980/27d1971105cd5e25ec2c86c46c9fd05b.jpg?v=0_3885769",
         prd_img2: "https://static.lichi.com/product/38980/d83095f0efc9da40c116dde38000691c.jpg?v=1_3885770",
-        category: 1
+        category: 1,
+        count: 0
     },
     {
         prd_id: 9,
@@ -81,7 +93,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38983/e607e69c1f4ca4cea50d0379a91ff75e.jpg?v=0_3885784",
         prd_img2: "https://static.lichi.com/product/38983/4700910ee29a4f9296fe5bf5603edbbf.jpg?v=1_3886129",
-        category: 1
+        category: 1,
+        count: 0
     },
     {
         prd_id: 10,
@@ -90,7 +103,8 @@ export const products: Product[] =
         prd_price: 40,
         prd_img: "https://static.lichi.com/product/38764/5b75f8b7bf56cf3a7d4e351093818bd5.jpg?v=0_3883296",
         prd_img2: "https://static.lichi.com/product/38764/a75d2ed304e187dac8b3be53ef46f828.jpg?v=1_3883297",
-        category: 2
+        category: 2,
+        count: 0
     },
     {
         prd_id: 11,
@@ -99,7 +113,8 @@ export const products: Product[] =
         prd_price: 40,
         prd_img: "https://static.lichi.com/product/38467/dfb7ed66396495a042219bef34dd4f15.jpg?v=0_3885938",
         prd_img2: "https://static.lichi.com/product/38467/eb0a7855e2fdc7c67a9f7e52e6862516.jpg?v=2_3847840",
-        category: 2
+        category: 2,
+        count: 0
     },
     {
         prd_id: 12,
@@ -108,7 +123,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38981/4be3c97b087e6e5beb10eb56e309701a.jpg?v=0_3885775",
         prd_img2: "https://static.lichi.com/product/38981/ae51ee9022ca6f9bb6a63f038801f4ef.jpg?v=1_3885776",
-        category: 2
+        category: 2,
+        count: 0
     },
     {
         prd_id: 13,
@@ -117,7 +133,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38768/1d491d644b9fc189287c1eb42c58c0a8.jpg?v=0_3883678",
         prd_img2: "https://static.lichi.com/product/38768/95e545d597b0d9f2cd6db631bec32f88.jpg?v=1_3883679",
-        category: 2
+        category: 2,
+        count: 0
     },
     {
         prd_id: 14,
@@ -126,7 +143,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38724/6f95d115d895d00ba0cd01f7cb3536c8.jpg?v=0_3883109",
         prd_img2: "https://static.lichi.com/product/38724/dd988d5dac82de38b21be1bff14525e0.jpg?v=1_3879078",
-        category: 2
+        category: 2,
+        count: 0
     },
     {
         prd_id: 15,
@@ -135,7 +153,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38969/96f58fb8018eae79ea1cf3348bd8f6af.jpg?v=0_3885654",
         prd_img2: "https://static.lichi.com/product/38969/2d28d5a5c0545f5901229def03382fe8.jpg?v=1_3885655",
-        category: 2
+        category: 2,
+        count: 0
     },
     {
         prd_id: 16,
@@ -144,7 +163,8 @@ export const products: Product[] =
         prd_price: 30,
         prd_img: "https://static.lichi.com/product/38947/6ffc3353046ebc771902ede02642d1a1.jpg?v=0_3885356",
         prd_img2: "https://static.lichi.com/product/38947/76d710fbc710d893460dadd03bbe6825.jpg?v=1_3885368",
-        category: 2
+        category: 2,
+        count: 0
     },
     {
         prd_id: 17,
@@ -153,7 +173,8 @@ export const products: Product[] =
         prd_price: 40,
         prd_img: "https://static.lichi.com/product/38790/fc6f5b283a95f1fd31cbafd989790638.jpg?v=0_3883933",
         prd_img2: "https://static.lichi.com/product/38790/8269559aebf2b223ab1f2ff3ac8ccc88.jpg?v=1_3884722",
-        category: 2
+        category: 2,
+        count: 0
     },
     {
         prd_id: 18,
@@ -162,7 +183,8 @@ export const products: Product[] =
         prd_price: 30,
         prd_img: "https://static.lichi.com/product/38241/932a8f27d7f687f3685d3e139fc5748e.jpg?v=0_3845079",
         prd_img2: "https://static.lichi.com/product/38241/fe10ef608e5c03ae32f4fec2d31b53c9.jpg?v=1_3845080",
-        category: 2
+        category: 2,
+        count: 0
     },
     {
         prd_id: 19,
@@ -171,7 +193,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/39013/1c017f83ccb6b4cfc7588b5d55f8e955.jpg?v=0_3885946",
         prd_img2: "https://static.lichi.com/product/39013/1c017f83ccb6b4cfc7588b5d55f8e955.jpg?v=0_3885946",
-        category: 3
+        category: 3,
+        count: 0
     },
     {
         prd_id: 20,
@@ -180,7 +203,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38982/56a4c35ce97dda7f8e2cbc65109be176.jpg?v=0_3885782",
         prd_img2: "https://static.lichi.com/product/38982/84718067f4e30d174e23b4449d309c19.jpg?v=1_3886102",
-        category: 3
+        category: 3,
+        count: 0
     },
     {
         prd_id: 21,
@@ -189,7 +213,8 @@ export const products: Product[] =
         prd_price: 30,
         prd_img: "https://static.lichi.com/product/38634/d789d16c14cdddc1710c4dbfe86b7505.jpg?v=0_3885505",
         prd_img2: "https://static.lichi.com/product/38634/f4d1d1438a865ba8e701fb99a193af81.jpg?v=1_3885862",
-        category: 3
+        category: 3,
+        count: 0
     },
     {
         prd_id: 22,
@@ -198,7 +223,8 @@ export const products: Product[] =
         prd_price: 30,
         prd_img: "https://static.lichi.com/product/38954/a646e45f2d5fea01d12c86e4eb9947e2.jpg?v=0_3885550",
         prd_img2: "https://static.lichi.com/product/38954/c01e2dabf29a2fd08199afdd0a7a7096.jpg?v=1_3886054",
-        category: 3
+        category: 3,
+        count: 0
     },
     {
         prd_id: 23,
@@ -207,7 +233,8 @@ export const products: Product[] =
         prd_price: 40,
         prd_img: "https://static.lichi.com/product/37481/a702ca8aa66b82980bde0791a0e214e9.jpg?v=0_3884642",
         prd_img2: "https://static.lichi.com/product/37481/1c529395c2ef9dde63ac48073fa85f6d.jpg?v=1_3885689",
-        category: 3
+        category: 3,
+        count: 0
     },
     {
         prd_id: 24,
@@ -216,7 +243,8 @@ export const products: Product[] =
         prd_price: 30,
         prd_img: "https://static.lichi.com/product/38946/cd61015da6ab3403b011287b91f81e56.jpg?v=0_3885556",
         prd_img2: "https://static.lichi.com/product/38946/db043b55fcb0bb0c6c32af49dfa8676d.jpg?v=1_3885557",
-        category: 3
+        category: 3,
+        count: 0
     },
     {
         prd_id: 25,
@@ -225,7 +253,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38950/f557755c0f3b93b19c3a4eaf073cbe0a.jpg?v=0_3885832",
         prd_img2: "https://static.lichi.com/product/38950/a04d403c0e5cefd689e0327600636b82.jpg?v=1_3885431",
-        category: 3
+        category: 3,
+        count: 0
     },
     {
         prd_id: 26,
@@ -234,7 +263,8 @@ export const products: Product[] =
         prd_price: 30,
         prd_img: "https://static.lichi.com/product/38725/1af092549657fb388a9ab22371525de8.jpg?v=0_3885830",
         prd_img2: "https://static.lichi.com/product/38725/9a11a99f5b600644bc39ef9b991a40ad.jpg?v=1_3879083",
-        category: 3
+        category: 3,
+        count: 0
     },
     {
         prd_id: 27,
@@ -243,7 +273,7 @@ export const products: Product[] =
         prd_price: 30,
         prd_img: "https://static.lichi.com/product/38899/60f899cfdf014ed4f7ea88555efba5b9.jpg?v=0_3884851",
         prd_img2: "https://static.lichi.com/product/38899/3b1a4b56f09b100bcafa835a5442dd90.jpg?v=1_3884852",
-        category: 3
+        category: 3,count: 0
     },
     {
         prd_id: 28,
@@ -252,7 +282,7 @@ export const products: Product[] =
         prd_price: 120,
         prd_img: "https://static.lichi.com/product/39026/9cbdde5cbf8cf4e7f720c7eeeb34b1b7.jpg?v=0_3886058",
         prd_img2: "https://static.lichi.com/product/39026/4bfdf26930cbb73ac97fc1d41822088f.jpg?v=1_3886098",
-        category: 4
+        category: 4,count: 0
     },
     {
         prd_id: 29,
@@ -261,7 +291,8 @@ export const products: Product[] =
         prd_price: 100,
         prd_img: "https://static.lichi.com/product/39009/9b7562206880bbdfe1a710d39365896c.jpg?v=0_3885930",
         prd_img2: "https://static.lichi.com/product/39009/822cfdb5477b3a00ad3e3741f66eecea.jpg?v=1_3885931",
-        category: 4
+        category: 4,
+        count: 0
     },
     {
         prd_id: 30,
@@ -270,7 +301,8 @@ export const products: Product[] =
         prd_price: 90,
         prd_img: "https://static.lichi.com/product/38920/26b0cfb833cb6fc2667bffbf23b0dc73.jpg?v=0_3885029",
         prd_img2: "https://static.lichi.com/product/38920/aa19192c304813b53091d5b08af3833a.jpg?v=1_3885421",
-        category: 4
+        category: 4,
+        count: 0
     },
     {
         prd_id: 31,
@@ -279,7 +311,8 @@ export const products: Product[] =
         prd_price: 120,
         prd_img: "https://static.lichi.com/product/37710/6a4dd3dfd92006f7e49c54930dcd30dc.jpg?v=0_3833164",
         prd_img2: "https://static.lichi.com/product/37710/9f1bdd632fb62e37ea9df6f68435ee4e.jpg?v=1_3835377",
-        category: 4
+        category: 4,
+        count: 0
     },
     {
         prd_id: 32,
@@ -288,7 +321,8 @@ export const products: Product[] =
         prd_price: 90,
         prd_img: "https://static.lichi.com/product/38952/6fb4aab87d11aba48468921276c37651.jpg?v=0_3885463",
         prd_img2: "https://static.lichi.com/product/38952/a09328698f5851b00d78d071f327f18b.jpg?v=1_3885792",
-        category: 4
+        category: 4,
+        count: 0
     },
     {
         prd_id: 33,
@@ -297,7 +331,8 @@ export const products: Product[] =
         prd_price: 120,
         prd_img: "https://static.lichi.com/product/38914/909b104c6c8f834fd30a68efcbf54131.jpg?v=0_3884962",
         prd_img2: "https://static.lichi.com/product/38914/eccdcb90826f3afde90e7084c50f96e4.jpg?v=1_3885419",
-        category: 4
+        category: 4,
+        count: 0
     },
     {
         prd_id: 34,
@@ -306,7 +341,8 @@ export const products: Product[] =
         prd_price: 100,
         prd_img: "https://static.lichi.com/product/38951/11ba33dab46c39fa8318d522df8d3c0a.jpg?v=0_3885526",
         prd_img2: "https://static.lichi.com/product/38951/a939569c82b9468d743b5060ca69e44f.jpg?v=1_3885524",
-        category: 4
+        category: 4,
+        count: 0
     },
     {
         prd_id: 35,
@@ -315,7 +351,8 @@ export const products: Product[] =
         prd_price: 110,
         prd_img: "https://static.lichi.com/product/38956/9f07cfecc96c8035e79acaff07295f16.jpg?v=0_3885461",
         prd_img2: "https://static.lichi.com/product/38956/4900498e160fff87c272526656261cf3.jpg?v=1_3885507",
-        category: 4
+        category: 4,
+        count: 0
     },
     {
         prd_id: 36,
@@ -324,7 +361,8 @@ export const products: Product[] =
         prd_price: 150,
         prd_img: "https://static.lichi.com/product/38928/91cfc27dee822dd34b9eab1d97a05bed.jpg?v=0_3885084",
         prd_img2: "https://static.lichi.com/product/38928/cb81536796a305f92e4006c952b265aa.jpg?v=1_3885269",
-        category: 4
+        category: 4,
+        count: 0
     },
     {
         prd_id: 37,
@@ -333,7 +371,8 @@ export const products: Product[] =
         prd_price: 50,
         prd_img: "https://static.lichi.com/product/38963/9575ba988bec53332d993c8d34421de0.jpg?v=0_3885517",
         prd_img2: "https://static.lichi.com/product/38963/4505ea6c38d1e4a4fbb7583c400c93ae.jpg?v=1_3885518",
-        category: 5
+        category: 5,
+        count: 0
     },
     {
         prd_id: 38,
@@ -342,7 +381,8 @@ export const products: Product[] =
         prd_price: 45,
         prd_img: "https://static.lichi.com/product/38242/2baf7bce053a7a496d0c0cd773aa1b57.jpg?v=0_3845431",
         prd_img2: "https://static.lichi.com/product/38242/80812fac4ff3a8d978ce860cd5a8972a.jpg?v=1_3845432",
-        category: 5
+        category: 5,
+        count: 0
     },
     {
         prd_id: 39,
@@ -351,7 +391,8 @@ export const products: Product[] =
         prd_price: 50,
         prd_img: "https://static.lichi.com/product/38916/6647ce80c5cd184ebfb03b2f78f7c7d2.jpg?v=0_3885009",
         prd_img2: "https://static.lichi.com/product/38916/b2af3c17f3db5916dd41607fe525d1b5.jpg?v=1_3885813",
-        category: 5
+        category: 5,
+        count: 0
     },
     {
         prd_id: 40,
@@ -360,7 +401,8 @@ export const products: Product[] =
         prd_price: 45,
         prd_img: "https://static.lichi.com/product/38910/593d58df579737b187a2d6e0418f115b.jpg?v=0_3884976",
         prd_img2: "https://static.lichi.com/product/38910/f3a054a874aa3e9f383ca040f836f392.jpg?v=1_3885766",
-        category: 5
+        category: 5,
+        count: 0
     },
     {
         prd_id: 41,
@@ -369,7 +411,8 @@ export const products: Product[] =
         prd_price: 50,
         prd_img: "https://static.lichi.com/product/38905/fddacd2aefee61eadd6a6edd6c5101e2.jpg?v=0_3884912",
         prd_img2: "https://static.lichi.com/product/38905/c6844f7e1bb2d69e4269ba222be639d7.jpg?v=1_3885686",
-        category: 5
+        category: 5,
+        count: 0
     },
     {
         prd_id: 42,
@@ -378,7 +421,8 @@ export const products: Product[] =
         prd_price: 50,
         prd_img: "https://static.lichi.com/product/38891/40765b53d9620bb86a3a993811d5bb12.jpg?v=0_3884874",
         prd_img2: "https://static.lichi.com/product/38891/638c07f905722c45c29e5250ced1bd0f.jpg?v=1_3885260",
-        category: 5
+        category: 5,
+        count: 0
     },
     {
         prd_id: 43,
@@ -387,7 +431,8 @@ export const products: Product[] =
         prd_price: 60,
         prd_img: "https://static.lichi.com/product/38871/56560e4dd9b0f808ea5f66ac22f6e800.jpg?v=0_3884257",
         prd_img2: "https://static.lichi.com/product/38871/081b3c13a22209a07986741f26f6b7e8.jpg?v=1_3884380",
-        category: 5
+        category: 5,
+        count: 0
     },
     {
         prd_id: 44,
@@ -396,7 +441,8 @@ export const products: Product[] =
         prd_price: 50,
         prd_img: "https://static.lichi.com/product/38853/9d0a797991f51c32211964b9f090f86d.jpg?v=0_3884130",
         prd_img2: "https://static.lichi.com/product/38853/4e45ece5cca0c0239317e6ad60d54f72.jpg?v=1_3884131",
-        category: 5
+        category: 5,
+        count: 0
     },
     {
         prd_id: 45,
@@ -405,7 +451,8 @@ export const products: Product[] =
         prd_price: 60,
         prd_img: "https://static.lichi.com/product/38861/93720e6a13563f76414cc0febb47a6cf.jpg?v=0_3884576",
         prd_img2: "https://static.lichi.com/product/38861/42ab09fcc8b1ddee5000e224684d3c46.jpg?v=1_3884577",
-        category: 5
+        category: 5,
+        count: 0
     },
     {
         prd_id: 46,
@@ -414,7 +461,8 @@ export const products: Product[] =
         prd_price: 20,
         prd_img: "https://static.lichi.com/product/38646/19dae9ab3b13c73f12f485fff3ed2a7e.jpg?v=0_3850147",
         prd_img2: "https://static.lichi.com/product/38646/7453d4f23e7cb8b9a6aff1ae0e25e904.jpg?v=1_3850311",
-        category: 6
+        category: 6,
+        count: 0
     },
     {
         prd_id: 47,
@@ -423,7 +471,8 @@ export const products: Product[] =
         prd_price: 25,
         prd_img: "https://static.lichi.com/product/38649/269fdb203165d745ca9c00ebf477a121.jpg?v=0_3850161",
         prd_img2: "https://static.lichi.com/product/38649/220604347b1adac5b564938235042aed.jpg?v=1_3850314",
-        category: 6
+        category: 6,
+        count: 0
     },
     {
         prd_id: 48,
@@ -432,7 +481,8 @@ export const products: Product[] =
         prd_price: 20,
         prd_img: "https://static.lichi.com/product/38647/9d59314dcef9226ea1364a6814800373.jpg?v=0_3850151",
         prd_img2: "https://static.lichi.com/product/38647/8b06d745dd2588a6158d976260257d31.jpg?v=1_3850321",
-        category: 6
+        category: 6,
+        count: 0
     },
     {
         prd_id: 49,
@@ -441,7 +491,8 @@ export const products: Product[] =
         prd_price: 20,
         prd_img: "https://static.lichi.com/product/38650/4cf3bee38fc03ae9cdfb9f5857030d7c.jpg?v=0_3850162",
         prd_img2: "https://static.lichi.com/product/38650/44c5944a2d5cd5bdf922d13271658399.jpg?v=1_3850318",
-        category: 6
+        category: 6,
+        count: 0
     },
     {
         prd_id: 50,
@@ -450,7 +501,8 @@ export const products: Product[] =
         prd_price: 25,
         prd_img: "https://static.lichi.com/product/38648/c5e7ce4a3107eb4a246ab39be851530a.jpg?v=0_3850155",
         prd_img2: "https://static.lichi.com/product/38648/ef1644b4bdddfd19e63b4472ec1ada2c.jpg?v=1_3850266",
-        category: 6
+        category: 6,
+        count: 0
     },
     {
         prd_id: 51,
@@ -459,7 +511,8 @@ export const products: Product[] =
         prd_price: 20,
         prd_img: "https://static.lichi.com/product/38645/5fb3b4e636491b127dd95efb05119b1e.jpg?v=0_3850143",
         prd_img2: "https://static.lichi.com/product/38645/7fd151b2997ce66c57f4517001895e65.jpg?v=1_3850309",
-        category: 6
+        category: 6,
+        count: 0
     },
     {
         prd_id: 52,
@@ -468,7 +521,8 @@ export const products: Product[] =
         prd_price: 40,
         prd_img: "https://static.lichi.com/product/38593/68469356318d70db24d8b963872797ed.jpg?v=0_3849419",
         prd_img2: "https://static.lichi.com/product/38593/b349332f01d318ada352bf2d1e3090ff.jpg?v=1_3849420",
-        category: 6
+        category: 6,
+        count: 0
     },
     {
         prd_id: 53,
@@ -477,7 +531,8 @@ export const products: Product[] =
         prd_price: 40,
         prd_img: "https://static.lichi.com/product/38590/7b17eb31cf26e091ea1f89d8680d7b79.jpg?v=0_3849395",
         prd_img2: "https://static.lichi.com/product/38590/b81a90f47e06c4d1537360360f9121d8.jpg?v=1_3849396",
-        category: 6
+        category: 6,
+        count: 0
     },
     {
         prd_id: 54,
@@ -486,7 +541,8 @@ export const products: Product[] =
         prd_price: 40,
         prd_img: "https://static.lichi.com/product/38589/4df9a43dedf8019c2bd69fb227ce2c14.jpg?v=0_3849390",
         prd_img2: "https://static.lichi.com/product/38589/78c1a24fe713bd27c5b9d680317cb7fd.jpg?v=1_3849391",
-        category: 6
+        category: 6,
+        count: 0
     },
     {
         prd_id: 55,
@@ -495,7 +551,8 @@ export const products: Product[] =
         prd_price: 30,
         prd_img: "https://static.lichi.com/product/39008/8e2b3378408ceba1c62b6ded6d81bebb.jpg?v=0_3885925",
         prd_img2: "https://static.lichi.com/product/39008/5a66db6e233d70fadeb87e30d7ad2e21.jpg?v=1_3885926",
-        category: 7
+        category: 7,
+        count: 0
     },
     {
         prd_id: 56,
@@ -504,7 +561,8 @@ export const products: Product[] =
         prd_price: 30,
         prd_img: "https://static.lichi.com/product/38962/eee0dc963f904a067c6167013a4ae580.jpg?v=0_3885512",
         prd_img2: "https://static.lichi.com/product/38962/86bb1a90ebce9437d192d65f6c1f6eb5.jpg?v=1_3885560",
-        category: 7
+        category: 7,
+        count: 0
     },
     {
         prd_id: 57,
@@ -513,7 +571,8 @@ export const products: Product[] =
         prd_price: 25,
         prd_img: "https://static.lichi.com/product/38870/8cdfa33c1063f7320c1421f0a800b91c.jpg?v=0_3884254",
         prd_img2: "https://static.lichi.com/product/38870/08b8184423c36b6e52fdcc19cae9eab3.jpg?v=1_3884400",
-        category: 7
+        category: 7,
+        count: 0
     },
     {
         prd_id: 58,
@@ -522,7 +581,8 @@ export const products: Product[] =
         prd_price: 25,
         prd_img: "https://static.lichi.com/product/38856/c0dd4ffa3888dd5042b88b095395d503.jpg?v=0_3884121",
         prd_img2: "https://static.lichi.com/product/38856/6eb9ac05a6ee297ef9a554a343934fb1.jpg?v=1_3884403",
-        category: 7
+        category: 7,
+        count: 0
     },
     {
         prd_id: 59,
@@ -531,7 +591,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38855/5cbfebc9dc1d14404ad8236a3845f38e.jpg?v=0_3884119",
         prd_img2: "https://static.lichi.com/product/38855/8ff0eb7ba522d72d6b4edb35085d2d14.jpg?v=1_3884452",
-        category: 7
+        category: 7,
+        count: 0
     },
     {
         prd_id: 60,
@@ -540,7 +601,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38756/16966f3567c8b749c5b64b96024d9bfe.jpg?v=0_3883162",
         prd_img2: "https://static.lichi.com/product/38756/2c6b75d0f4979e27002ced679f5cb536.jpg?v=1_3883373",
-        category: 7
+        category: 7,
+        count: 0
     },
     {
         prd_id: 61,
@@ -549,7 +611,8 @@ export const products: Product[] =
         prd_price: 40,
         prd_img: "https://static.lichi.com/product/38750/bbb47d2e82345c26e2f7c9ac10678318.jpg?v=0_3883242",
         prd_img2: "https://static.lichi.com/product/38750/a4b87079080a0ddc83e43faa996bcfd1.jpg?v=1_3883367",
-        category: 7
+        category: 7,
+        count: 0
     },
     {
         prd_id: 62,
@@ -558,7 +621,8 @@ export const products: Product[] =
         prd_price: 30,
         prd_img: "https://static.lichi.com/product/38749/df3c88f13746d1f70ffecc0c030964fa.jpg?v=0_3883112",
         prd_img2: "https://static.lichi.com/product/38749/1713512bb4aa8d3aaa7b173e0035b006.jpg?v=1_3883401",
-        category: 7
+        category: 7,
+        count: 0
     },
     {
         prd_id: 63,
@@ -567,7 +631,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38756/16966f3567c8b749c5b64b96024d9bfe.jpg?v=0_3883162",
         prd_img2: "https://static.lichi.com/product/38756/2c6b75d0f4979e27002ced679f5cb536.jpg?v=1_3883373",
-        category: 7
+        category: 7,
+        count: 0
     },
     {
         prd_id: 64,
@@ -576,7 +641,8 @@ export const products: Product[] =
         prd_price: 40,
         prd_img: "https://static.lichi.com/product/38765/891ce06c882c1043cf4d94d7738bcb9b.jpg?v=0_3883301",
         prd_img2: "https://static.lichi.com/product/38765/095e6b2f4ecdf692ede5b91a0c093e43.jpg?v=1_3883302",
-        category: 8
+        category: 8,
+        count: 0
     },
     {
         prd_id: 65,
@@ -585,7 +651,8 @@ export const products: Product[] =
         prd_price: 40,
         prd_img: "https://static.lichi.com/product/38984/872f2feaa6544660e34fb5fac7a65e89.jpg?v=0_3885786",
         prd_img2: "https://static.lichi.com/product/38984/93c8158ad1d915ffeffee6da271d6145.jpg?v=1_3885787",
-        category: 8
+        category: 8,
+        count: 0
     },
     {
         prd_id: 66,
@@ -594,7 +661,8 @@ export const products: Product[] =
         prd_price: 40,
         prd_img: "https://static.lichi.com/product/38771/18be0282720711da7d1e18a544a5a785.jpg?v=0_3883686",
         prd_img2: "https://static.lichi.com/product/38771/9b80fdf7007da0abba07eff22b11b3e4.jpg?v=1_3883687",
-        category: 8
+        category: 8,
+        count: 0
     },
     {
         prd_id: 67,
@@ -603,7 +671,8 @@ export const products: Product[] =
         prd_price: 25,
         prd_img: "https://static.lichi.com/product/38974/b042af1c8df9531576e9730656de6856.jpg?v=0_3885685",
         prd_img2: "https://static.lichi.com/product/38974/fe1a7809eae290b10b2632503ce5b6c6.jpg?v=1_3885805",
-        category: 8
+        category: 8,
+        count: 0
     },
     {
         prd_id: 68,
@@ -612,7 +681,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38948/7ac67e726eced7bb849161bac6ccc38f.jpg?v=0_3885363",
         prd_img2: "https://static.lichi.com/product/38948/a74ad4870e46d45aa9208a17bf1cd2a8.jpg?v=1_3885364",
-        category: 8
+        category: 8,
+        count: 0
     },
     {
         prd_id: 69,
@@ -621,7 +691,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38940/1754fb31b7989b9e8c171df5d181fcc6.jpg?v=0_3885236",
         prd_img2: "https://static.lichi.com/product/38940/a6c14bbdd3468201085e8055dd0d3206.jpg?v=1_3885571",
-        category: 8
+        category: 8,
+        count: 0
     },
     {
         prd_id: 70,
@@ -630,7 +701,8 @@ export const products: Product[] =
         prd_price: 25,
         prd_img: "https://static.lichi.com/product/38964/371d6566aadccd3268f0055af5f207fd.jpg?v=0_3885625",
         prd_img2: "https://static.lichi.com/product/38964/2e7ca4ab4e123221d12c0cbd6f70201b.jpg?v=1_3885800",
-        category: 8
+        category: 8,
+        count: 0
     },
     {
         prd_id: 71,
@@ -639,7 +711,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38933/17486926a184da3812c2397b2524800a.jpg?v=0_3885176",
         prd_img2: "https://static.lichi.com/product/38933/4c4b48acdc0befcdc8dc79703be41c62.jpg?v=1_3885210",
-        category: 8
+        category: 8,
+        count: 0
     },
     {
         prd_id: 72,
@@ -648,7 +721,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38818/659caaa2d5be7951241c382733c1752d.jpg?v=0_3883849",
         prd_img2: "https://static.lichi.com/product/38818/061cc8267b1c68f2d5e65ce402fc7029.jpg?v=1_3885225",
-        category: 8
+        category: 8,
+        count: 0
     },
     {
         prd_id: 73,
@@ -657,7 +731,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38644/ced2735d7ac3605a178382a3fb87373f.jpg?v=0_3850134",
         prd_img2: "https://static.lichi.com/product/38644/1fed80ca76b4862c592890360b81fd1e.jpg?v=1_3850135",
-        category: 9
+        category: 9,
+        count: 0
     },
     {
         prd_id: 74,
@@ -666,7 +741,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38548/2b98a9f86260f1c6d0c753ee77153fed.jpg?v=0_3850338",
         prd_img2: "https://static.lichi.com/product/38548/57a58182493fc4563c800c066d3d363c.jpg?v=1_3849575",
-        category: 9
+        category: 9,
+        count: 0
     },
     {
         prd_id: 75,
@@ -675,7 +751,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38643/3ce1ae47fd3d4a8a7ce8533eaa9c1b8d.jpg?v=0_3850345",
         prd_img2: "https://static.lichi.com/product/38643/08727ce5f2f2ffd226890c218068ade6.jpg?v=1_3850131",
-        category: 9
+        category: 9,
+        count: 0
     },
     {
         prd_id: 76,
@@ -684,7 +761,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38641/b58e7bd39d1b5cfa0b99994ae72048d7.jpg?v=0_3850335",
         prd_img2: "https://static.lichi.com/product/38641/62ebdecc2f97881c5d835664d0b60550.jpg?v=1_3850122",
-        category: 9
+        category: 9,
+        count: 0
     },
     {
         prd_id: 77,
@@ -693,7 +771,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38541/351e8a39a999b33d97770ead757202d5.jpg?v=0_3848686",
         prd_img2: "https://static.lichi.com/product/38541/76cc14cb8bf37b7e35fbbc0f488a78fc.jpg?v=1_3850109",
-        category: 9
+        category: 9,
+        count: 0
     },
     {
         prd_id: 78,
@@ -702,7 +781,8 @@ export const products: Product[] =
         prd_price: 35,
         prd_img: "https://static.lichi.com/product/38642/0bdf6d47c6a1dc71af0cbd133554511c.jpg?v=0_3850342",
         prd_img2: "https://static.lichi.com/product/38642/75d59594afc46184b13d81648095441c.jpg?v=1_3850126",
-        category: 9
+        category: 9,
+        count: 0
     },
     {
         prd_id: 79,
@@ -711,7 +791,8 @@ export const products: Product[] =
         prd_price: 20,
         prd_img: "https://static.lichi.com/product/37224/8207845111b2c1f28e8521c1b9eb42ff.jpg?v=0_3826494",
         prd_img2: "https://static.lichi.com/product/37224/d8ddab77f0c86e04557c147e441de9ce.jpg?v=1_3827245",
-        category: 9
+        category: 9,
+        count: 0
     },
     {
         prd_id: 80,
@@ -720,7 +801,8 @@ export const products: Product[] =
         prd_price: 20,
         prd_img: "https://static.lichi.com/product/37221/79a70e78b3bb543aa82d4d9e4133f080.jpg?v=0_3826486",
         prd_img2: "https://static.lichi.com/product/37221/492bc116748c54802e0515d933307431.jpg?v=1_3827246  ",
-        category: 9
+        category: 9,
+        count: 0
     },
     {
         prd_id: 81,
@@ -729,24 +811,7 @@ export const products: Product[] =
         prd_price: 30,
         prd_img: "https://static.lichi.com/product/37162/affb0ede86fa0bf1c241f6adba5b2de5.jpg?v=0_3825813",
         prd_img2: "https://static.lichi.com/product/37162/83a22066e89a77efb12c2cbdae871ce2.jpg?v=1_3827222",
-        category: 9
+        category: 9,
+        count: 0
     },
-
-
-    
-
-    
-
-
-    
-
-
-
-    
-    
-    
-    
-    
-
-
 ]

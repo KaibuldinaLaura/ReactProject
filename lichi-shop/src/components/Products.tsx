@@ -10,7 +10,7 @@ export default function Products(): ReactElement {
 
     const match = useRouteMatch<{id: any}>()
     const category = match.params.id;
-    
+
     
     return (
         <div id = "product">

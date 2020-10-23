@@ -14,7 +14,6 @@ export default class Categories extends Component<RouteChildrenProps> {
          
     render() {
         const {categories} = this.context;
-        const match = this.props.match?.url
 
         return (
             <div id = "category">
@@ -22,7 +21,7 @@ export default class Categories extends Component<RouteChildrenProps> {
                     <nav>
                         { categories.map((cat: { cat_id: number; cat_name: string; cat_image: string; cat_image2: string}) =>  (
                            <ul className = 'topCategoriesList'>
-                                <a href={`categories/${cat.cat_id}/products`}><li>{cat.cat_name}</li></a>
+                                <Link to={`categories/${cat.cat_id}/products`}><li>{cat.cat_name}</li></Link>
                             </ul>
                         ))
                         }    

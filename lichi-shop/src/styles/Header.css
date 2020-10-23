@@ -4,6 +4,7 @@ header {
     justify-content: space-around;
     align-items:  center;
     overflow: hidden;
+    background-color: white;
 }
 .navbar {
     overflow: hidden;
@@ -11,7 +12,6 @@ header {
     position: fixed; 
     top: 0; 
     width: 100%; 
-    z-index: 99;
   }
 
 header nav {
@@ -48,7 +48,7 @@ nav .nav-card span {
     background-color: crimson;
     border-radius: 50%;
     padding: 3px 5px;
-    z-index: -1;
+    z-index: 99;
 }
 
 header .menu, header .close {

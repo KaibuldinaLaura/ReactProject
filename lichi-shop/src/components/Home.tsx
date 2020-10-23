@@ -14,7 +14,6 @@ class Home extends Component {
                         <li><a href="https://vk.com/lichi_brand?utm_source=footer&utm_medium=site&utm_campaign=internal" target="_blank">Vk</a></li>
                         <li><a href="https://www.pinterest.com/lichi_brand/?utm_source=footer&utm_medium=site&utm_campaign=internal" target="_blank">Pinterest</a></li>
                     </ul>
-                    <p>© All rights reserved</p>
                 </div>
             </div>
         );

@@ -8,6 +8,7 @@ export default function Registration(){
     const { handleSubmit, register, errors } = useForm();
     const onSubmit = (values: any) => console.log(values);
 
+
     return (
         <div className="registration">
             <h1>Sign Up</h1>
@@ -39,7 +40,7 @@ export default function Registration(){
                         name="password"
                         ref={register({
                             required: "Required!",
-                            validate: value => value !== "123" || "To easy!"
+                            validate: value => value !== "123" || "Are you serious?"
                         })}
                     />
 
@@ -49,10 +50,19 @@ export default function Registration(){
 
                     <p id="inf">
                         <input
-                            type="checkbox" />
+                            type="checkbox"
+                            name="checkbox"
+                            ref={register({
+                                required: "Required!"
+                            })}
+                        />
                         I allow Lichi to use my personal data in accordance<br/>
                         with confidential by agreement.
-                    </p>
+                    </p><br/><br/><br/><br/>
+
+                    <div className="check">
+                        {errors.checkbox && errors.checkbox.message}
+                    </div>
 
                     <button type="submit">Submit</button>
                 </form>
